@@ -1,0 +1,1950 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    text-align: right;
+    padding: 50px 0px 0 0;
+    width: 100%;
+}
+
+nav > a{
+    color: #868387;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: 400;
+    font-size: 24px;
+    padding: 10px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+.logo{
+    margin: -50px 30px 10px 60px;
+}
+
+.imagen-fondo-doctor {
+    background-image: url(../img/header.png);
+    width: 100%;
+    height: 700px;
+    margin-top: 60px;
+    /* margin-left: 100px; */
+    /* margin-right: 30px; */
+}
+
+.boton-visitanos {
+    /* margin: 100px 0px -700px 50px; */
+    padding: 330px 0px 20px 60px;
+}
+
+.button-visita {
+    background: #CE007D;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 20px 45px;
+    cursor: pointer;
+}
+
+.button-visita:hover{
+    background: #096FCF;
+}
+
+
+.pide-tu-cita {
+    width: 100%;
+    background: #096FCF;
+    display: flex;
+    height: 160px;
+}
+
+.mi-icono{
+    margin: 20px 0px 0px 70px;
+}
+
+.medio {
+    width: 15%;
+}
+
+.medio1 {
+    width: 60%;
+}
+
+.contenido-cita {
+    color: white;
+    margin-top: 20px;
+}
+
+.contenido-cita h1{
+    margin-block: 20px;
+}
+
+.contenido-cita p {
+    font-size: 20px;
+}
+
+.medio2 {
+    width: 25%;
+}
+
+.mi-bottom {
+    margin: 50px;
+}
+
+.button-cita {
+    background: #F2762B;
+    border: none;
+    border-radius: 40px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 20px 45px;
+    cursor: pointer;
+}
+
+.tamanopro{
+    width: 90%;
+}
+
+.financiacion {
+    width: 100%;
+    /* display: flex; */
+}
+
+#un-titulo{
+    color: #00417e;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.contenido-f {
+    display: flex;
+    width: 75%;
+    margin: auto;
+}
+
+.contenido-t1 {
+    width: 33%;
+    margin: 0px 40px 0px 0px;
+}
+
+.icoo{
+    margin: 0px 100px 0px 130px;
+    margin-bottom: 20px;
+}
+
+.contenido-t1 h3{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contenido-t1 p{
+    font-size: 18px;
+    color: rgb(83, 83, 83);
+    margin: 0px 0px 0px 50px;
+}
+
+
+
+.contenido-t2 {
+    width: 33%;
+    margin: 0px 40px 0px 0px;
+}
+
+.contenido-t2 h3{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contenido-t2 p{
+    font-size: 18px;
+    color: rgb(83, 83, 83);
+    margin: 0px 0px 0px 10px;
+    text-align: center;
+}
+
+
+.contenido-t3 {
+    width: 33%;
+    margin: 0px 40px 0px 0px;
+}
+
+.contenido-t3 h3{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contenido-t3 p{
+    font-size: 18px;
+    color: rgb(83, 83, 83);
+    margin: 0px 0px 0px 10px;
+    text-align: center;
+}
+
+.btn-financiacion {
+    background: #F2762B;
+    border: none;
+    border-radius: 40px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 20px 45px;
+    cursor: pointer;
+    display: block;
+}
+
+.buttomFinaciacion {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.nina{
+    width: 100%;
+    margin-bottom: 90px;
+}
+
+.nina-tam{
+    width: 100%;
+    display: inline;
+}
+
+.micontent {
+    background-image: url(../img/niña.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #4a4e50;
+    height: 300px;
+    /* width: 100%; */
+}
+
+.margen {
+    padding: 60px 0px 0px 220px;
+}
+
+#fino{
+    color: rgb(0, 0, 0);
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+.margen p {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.margen a{
+    color: #CA5007;
+}
+
+
+.contenidoIMG {
+    width: 100%;
+    display: flex;
+}
+
+.miIMG {
+    width: 50%;
+}
+
+.miIMG1{
+    background-image: url(../img/fonfoAzul.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+}
+
+.miIMG2{
+    background-image: url(../img/verde.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+}
+
+.miconte{
+    margin: 140px 0px 0px 0px;
+    text-align: center;
+}
+
+.miconte h2{
+    color: white;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.miconte p{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+
+
+
+
+.miconte2{
+    margin: 140px 0px 0px 0px;
+    text-align: center;
+}
+
+.miconte2 h2{
+    color: #00417e;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.miconte2 p{
+    color: rgb(83, 81, 81);
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.buttonmujer{
+    background: #F2762B;
+    border: none;
+    border-radius: 40px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 20px 45px;
+    cursor: pointer;
+    display: block;
+}
+
+
+
+
+.nina1{
+    width: 100%;
+    margin-bottom: 90px;
+}
+
+.nina-tam1{
+    width: 100%;
+    display: inline;
+}
+
+.micontent1 {
+    background-image: url(../img/cotazonmanos.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #4a4e50;
+    height: 300px;
+    /* width: 100%; */
+}
+
+.margen1 {
+    padding: 60px 0px 0px 220px;
+}
+
+#fino1{
+    color: rgb(0, 0, 0);
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+.margen1 p {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.margen1 a{
+    color: #CA5007;
+}
+
+
+
+
+
+
+
+.pide-tu-cita1 {
+    width: 100%;
+    background: #096FCF;
+    display: flex;
+    /* height: 160px; */
+    margin-top: -90px;
+}
+
+.mi-icono1{
+    margin: 20px 0px 0px 70px;
+}
+
+.medio3 {
+    width: 15%;
+}
+
+.medio4 {
+    width: 55%;
+}
+
+.contenido-cita6 {
+    color: white;
+    margin-top: 20px;
+}
+
+.contenido-cita6 h1{
+    margin-block: 20px;
+}
+
+.contenido-cita6 p {
+    font-size: 20px;
+}
+
+.medio5 {
+    width: 30%;
+}
+
+.mi-bottom7 {
+    margin: 50px;
+}
+
+.button-cita8 {
+    background: #F2762B;
+    border: none;
+    border-radius: 40px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 20px 50px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.portafolio{
+    background: #f2f2f2;
+    width: 100%;
+}
+
+/* .galeria-port{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+} */
+/* repasar */
+.imagen-port{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+
+.imagen-port > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* esto es para que cuando acerque el click en la imagen se vea la transicion */
+.hover-galeria{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 20px 10px;
+    top: 0;
+    transform: scale(0);
+    background: hsla(273, 26%, 83%, 0.7);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hover-galeria img{
+    width: 50px;
+}
+
+.hover-galeria h3{
+    color: rgb(48, 47, 47);
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.hover-galeria a{
+    color: #CA5007;
+    font-size: 20px;
+}
+
+.imagen-port:hover .hover-galeria{
+    transform: scale(1);
+}
+
+
+
+
+
+
+.miform {
+    width: 100%;
+    margin-top: 80px;
+}
+
+.conteF {
+    /* width: 100%; */
+    display: flex;
+}
+
+.formImg img{
+    margin-left: 100px;
+    width: 600px;
+    /* width: 50%; */
+}
+
+.formT {
+    width: 50%;
+    margin-left: 100px;
+}
+
+#check{
+    text-align: center;
+}
+
+.formT h2{
+    text-align: center;
+    color: #096FCF;
+    margin-bottom: 60px;
+}
+
+.formT label{
+    text-align: left;
+    color: #096FCF;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+
+input{
+    padding: 12px 180px;
+    margin-bottom: 25px;
+    border-color: rgb(187, 185, 185);
+    border-radius: 8px;
+}
+
+.guardar{
+    background: #ecdfdf;
+    border: none;
+    /* border-radius: 40px; */
+    color: red;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 12px 230px;
+    cursor: pointer;
+    display: block;
+}
+
+.guardar:hover{
+    background: #f57575;
+}
+
+
+
+
+
+
+
+
+.miSocial {
+    width: 100%;
+    background: #096FCF;
+    display: flex;
+    height: 180px;
+}
+
+.miSocial {
+    color: white;
+    margin-top: 20px;
+}
+
+.miSocial h3{
+    margin-top: 50px;
+    font-size: 17px;
+}
+
+.miSocial p {
+    font-size: 25px;
+}
+
+.mi-icono-social{
+    margin: 45px 0px 0px 120px;
+}
+
+.red {
+    width: 15%;
+}
+
+.red1 {
+    width: 17%;
+}
+
+.red2 {
+    width: 15%;
+}
+
+.red3 {
+    width: 18%;
+}
+
+.red4 {
+    width: 15%;
+}
+
+.red5 a{
+    color: #fff;
+    font-size: 15px;
+}
+
+.red5 {
+    width: 20%;
+}
+
+.informacion {
+    width: 100%;
+    height: 250px;
+    margin-top: 70px;
+    margin-bottom: 150px;
+}
+
+.flexM {
+    display: flex;
+}
+
+.informacion h3 {
+    color: #096FCF;
+}
+
+.informacion a:hover{
+    color: #CA5007;
+}
+
+.info-img {
+    width: 30%;
+    border: 1px solid rgb(110, 102, 102);
+    margin-left: 20px;
+}
+
+.conte-info {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.conte-info p {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #CA5007;
+}
+
+/* **************************************** */
+.servicios {
+    width: 21%;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.conte-serve a{
+    color: rgb(97, 93, 93);
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.compania {
+    width: 21%;
+    margin-top: 50px;
+}
+
+.conte-conpany a{
+    color: rgb(97, 93, 93);
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.contacto {
+    width: 21%;
+    margin-top: 50px;
+    /* margin-left: 50px; */
+}
+
+.conte-contacto a{
+    color: rgb(97, 93, 93);
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.bancos {
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+
+
+footer{
+    background: rgb(197, 196, 196);
+    padding: 30px;
+}
+
+.contenido-footer {
+    text-align: center;
+    color: rgb(92, 88, 88);
+    font-size: 15px;
+}
+
+.contenido-footer a{
+    /* text-align: center; */
+    color: rgb(54, 50, 50);
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.contenido-footer a:hover{
+    color: #CA5007;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 400px) {
+
+    body {
+        width: 100%;
+    }
+    
+    nav{
+        text-align: center;
+        padding: 10px 0px 0 0;
+    }
+    
+    nav > a{
+        color: #868387;
+        text-decoration: none;
+        margin-right: 10px;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 25px;
+        /* padding: 10px; */
+    }
+    
+    nav > a:hover{
+        text-decoration: underline;
+    }
+
+    .logo{
+        margin: -20px 30px 10px 5px;
+    }
+
+    .logoImg {
+        width: 100px;
+        height: 60px;
+    }
+
+    .imagen-fondo-doctor {
+        background-image: none;
+        /* width: 200px; */
+        height: 100px;
+        margin-top: 60px;
+        /* margin-left: 100px; */
+        /* margin-right: 30px; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .boton-visitanos {
+        /* margin: 100px 0px -700px 50px; */
+        padding: 0px 0px 20px 80px;
+    }
+    
+    .button-visita {
+        background: #CE007D;
+        border: none;
+        border-radius: 4px;
+        color: #fff;
+        text-decoration: none;
+        font-size: 10px;
+        padding: 15px 35px;
+        cursor: pointer;
+    }
+    
+    .button-visita:hover{
+        background: #096FCF;
+    }
+
+
+
+    .pide-tu-cita {
+        width: 100%;
+        background: #096FCF;
+        height: 230px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .mi-icono{
+        /* text-align: center; */
+        /* flex-direction: column; */
+        /* padding: 0px 0px 0px 0px; */
+        margin: 40px 0px 0px 0px;
+    }
+    
+    .contenido-cita {
+        color: white;
+        margin-top: 20px;
+    }
+    
+    .contenido-cita h1{
+        margin-block: 10px;
+        font-size: 15px;
+    }
+    
+    .contenido-cita p {
+        font-size: 10px;
+    }
+
+    .medio1 {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .medio2 {
+        text-align: center;
+    }
+    
+    .mi-bottom {
+        margin: 10px;
+        align-items: center;
+    }
+    
+    .button-cita {
+        background: #F2762B;
+        border: none;
+        border-radius: 40px;
+        color: #fff;
+        text-decoration: none;
+        font-size: 8px;
+        padding: 0px 45px;
+        cursor: pointer;
+        margin: auto;
+        margin-left: -20px;
+    }
+
+    #un-titulo {
+        color: #00417e;
+        text-align: center;
+        margin-bottom: 35px;
+        margin-top: 35px;
+        font-size: 13px;
+    }
+
+    .financiacion {
+        width: 100%;
+    }
+
+    .contenido-f {
+        margin: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* ****************************************** */
+    .contenido-t1 {
+        margin: auto;
+    }
+    
+    .icoo{
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    
+    .contenido-t1 h3{
+        margin-bottom: 20px;
+        text-align: left;
+    }
+    
+    .contenido-t1 p{
+        font-size: 16px;
+        color: rgb(83, 83, 83);
+        margin: 0px 0px 40px 0px;
+        text-align: justify;
+    }
+    
+    
+    
+    .contenido-t2 {
+        margin: auto;
+    }
+    
+    .contenido-t2 h3{
+        margin-bottom: 20px;
+        text-align: left;
+    }
+    
+    .contenido-t2 p{
+        font-size: 16px;
+        color: rgb(83, 83, 83);
+        margin: 0px 0px 40px 0px;
+        text-align: justify;
+    }
+    
+    
+    .contenido-t3 {
+        margin: 0px 40px 0px 0px;
+    }
+    
+    .contenido-t3 h3{
+        margin-bottom: 20px;
+        text-align: left;
+    }
+    
+    .contenido-t3 p{
+        font-size: 16px;
+        color: rgb(83, 83, 83);
+        margin: 0px 0px 0px 0px;
+        text-align: justify;
+    }
+    
+    .btn-financiacion {
+        background: #F2762B;
+        border: none;
+        border-radius: 40px;
+        color: #fff;
+        text-decoration: none;
+        font-size: 14px;
+        padding: 10px 40px;
+        cursor: pointer;
+        display: block;
+    }
+    
+    .buttomFinaciacion {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    /* ********************************************************* */
+    
+    
+    .nina-tam{
+        width: 100%;
+        display: inline;
+    }
+    
+    .micontent {
+        background-image: url(../img/niña.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        color: #4a4e50;
+        height: 250px;
+        /* width: 100%; */
+    }
+    
+    .margen {
+        padding: 60px 0px 0px 50px;
+    }
+    
+    #fino{
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .margen p {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    
+    .margen a{
+        color: #CA5007;
+        font-size: 10px;
+    }
+
+    /* *********************************************************** */
+    .contenidoIMG {
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .miIMG img{
+        margin-left: 100px;
+        width: 150%;
+    }
+    
+    .miIMG1{
+        background-image: url(../img/fonfoAzul.jpg);
+        background-size: 100% 100%;
+        width: 100%;
+    }
+    
+    .miIMG2{
+        background-image: url(../img/verde.jpg);
+        background-size: 100% 100%;
+        width: 100%;
+    }
+    
+    .miconte{
+        margin: 50px 0px 0px 0px;
+        text-align: center;
+    }
+    
+    .miconte h2{
+        color: white;
+        margin-bottom: 20px;
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    .miconte p{
+        color: white;
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+    
+    
+    
+    .miconte2{
+        margin: 50px 0px 0px 0px;
+        text-align: center;
+    }
+    
+    .miconte2 h2{
+        color: #00417e;
+        margin-bottom: 20px;
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    .miconte2 p{
+        color: rgb(83, 81, 81);
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+    
+    .buttonmujer{
+        background: #F2762B;
+        border: none;
+        border-radius: 40px;
+        color: #fff;
+        text-decoration: none;
+        font-size: 10px;
+        padding: 10px 30px;
+        cursor: pointer;
+        margin-block-end: 20px;
+    }
+
+    /* *********************************************************************************** */
+    .nina1{
+        width: 100%;
+        margin-bottom: 90px;
+    }
+    
+    .nina-tam1{
+        width: 100%;
+        display: inline;
+    }
+    
+    .micontent1 {
+        background-image: url(../img/cotazonmanos.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        color: #4a4e50;
+        height: 300px;
+        /* width: 100%; */
+    }
+    
+    .margen1 {
+        padding: 20px 0px 0px 30px;
+    }
+    
+    #fino1{
+        color: rgb(0, 0, 0);
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    
+    .margen1 p {
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+    
+    .margen1 a{
+        color: #CA5007;
+        font-size: 16px;
+    }
+
+
+    /* ******************************************************************************************** */
+    .pide-tu-cita1 {
+        width: 100%;
+        background: #096FCF;
+        /* height: 160px; */
+        margin-top: -90px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .mi-icono1{
+        margin: 0px;
+        font-size: 70px;
+    }
+    
+    .contenido-cita6 {
+        color: white;
+        margin-top: 20px;
+        text-align: justify;
+    }
+    
+    .contenido-cita6 h1{
+        margin-block: 20px;
+        text-align: left;
+    }
+    
+    .contenido-cita6 p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    
+    .mi-bottom7 {
+        margin: 0px 0px 0px -50px;
+        margin-bottom: 20px;
+    }
+    
+    .button-cita8 {
+        background: #F2762B;
+        border: none;
+        border-radius: 40px;
+        color: #fff;
+        text-decoration: none;
+        font-size: 12px;
+        padding: 10px 25px;
+        cursor: pointer;
+    }
+
+    /* ******************************************************************************* */
+    .portafolio{
+        background: #f2f2f2;
+        width: 100%;
+    }
+    /* repasar */
+    .imagen-port{
+        width: 100%;
+        height: 400px;
+        margin-bottom: 10px;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+        box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    }
+    
+    /* esto es para que cuando acerque el click en la imagen se vea la transicion */
+    .hover-galeria{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        margin: 20px 10px;
+        top: 0;
+        transform: scale(0);
+        background: hsla(273, 26%, 83%, 0.7);
+        transition: transform .5s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .hover-galeria h3{
+        color: rgb(48, 47, 47);
+        margin-bottom: 20px;
+        font-size: 22px;
+        text-align: center;
+    }
+    
+    .hover-galeria a{
+        color: #CA5007;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /* ******************************************************************************************** */
+    .miform {
+        width: 100%;
+        margin-top: 50px;
+    }
+    
+    .conteF {
+        /* width: 100%; */
+        flex-direction: column;
+    }
+    
+    .formImg img{
+        margin-left: 100px;
+        /* width: 600px; */
+        width: 55%;
+    }
+    
+    .formT {
+        width: 100%;
+        margin-left: 5px;
+    }
+    
+    #check{
+        text-align: center;
+    }
+    
+    .formT h2{
+        text-align: center;
+        color: #096FCF;
+        margin-bottom: 40px;
+        margin-top: 25px;
+    }
+    
+    .formT label{
+        text-align: left;
+        color: #096FCF;
+        font-size: 15px;
+        line-height: 26px;
+    }
+    
+    
+    input{
+        padding: 12px 90px;
+        margin-bottom: 25px;
+        border-color: rgb(187, 185, 185);
+        border-radius: 8px;
+    }
+    
+    .guardar{
+        background: #ecdfdf;
+        border: none;
+        /* border-radius: 40px; */
+        color: red;
+        text-decoration: none;
+        font-size: 14px;
+        padding: 10px 80px;
+        cursor: pointer;
+        display: block;
+        margin: auto;
+    }
+
+    /* ************************************************************************************ */
+    .miSocial {
+        width: 100%;
+        background: #096FCF;
+        flex-direction: column;
+        height: 670px;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .miSocial {
+        color: white;
+        margin-top: 10px;
+    }
+
+    .red, .red2, .red4 {
+        margin: 0px 0px -30px -230px;
+    }
+    
+    .miSocial h3{
+        margin-top: 50px;
+        margin-bottom: -30px;
+        font-size: 13px;
+    }
+
+    .miSocial h1{
+        margin-top: 50px;
+        font-size: 12px;
+        text-align: center;
+    }
+    
+    .miSocial p {
+        margin-top: 35px;
+        font-size: 15px;
+        margin-left: -80px;
+    }
+
+    /* *********************************************************************** */
+    .informacion {
+        width: 100%;
+        height: 900px;
+        margin-top: 40px;
+        margin-bottom: 150px;
+    }
+    
+    .flexM {
+        flex-direction: column;
+    }
+    
+    .informacion h3 {
+        color: #096FCF;
+    }
+    
+    .informacion a:hover{
+        color: #CA5007;
+    }
+    
+    .info-img {
+        width: 90%;
+        border: 1px solid rgb(110, 102, 102);
+        margin-left: 20px;
+    }
+    
+    .conte-info {
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    
+    .conte-info p {
+        margin-top: 40px;
+        font-size: 14px;
+        color: #CA5007;
+    }
+    
+    /* **************************************** */
+    .servicios {
+        width: 50%;
+        margin-top: 50px;
+        margin-left: 100px;
+    }
+    
+    .conte-serve a{
+        color: rgb(97, 93, 93);
+        line-height: 40px;
+        text-decoration: none;
+    }
+    
+    .compania {
+        width: 50%;
+        margin-top: 50px;
+        margin-left: 100px;
+    }
+    
+    .conte-conpany a{
+        color: rgb(97, 93, 93);
+        line-height: 40px;
+        text-decoration: none;
+    }
+    
+    .contacto {
+        width: 50%;
+        margin-top: 50px;
+        margin-left: 100px;
+    }
+    
+    .conte-contacto a{
+        color: rgb(97, 93, 93);
+        line-height: 40px;
+        text-decoration: none;
+    }
+    
+    .bancos {
+        text-align: right;
+        margin-right: 30px;
+        margin-top: 50px;
+    }
+}
+
+
+/* ********************************************************************************************** */
+
+@media only screen and (max-width: 1050px) and (min-width: 400px) {  
+
+        body {
+            width: 100%;
+        }
+        
+        nav{
+            text-align: center;
+            padding: 10px 0px 0 0;
+        }
+        
+        nav > a{
+            color: #868387;
+            text-decoration: none;
+            margin-right: 10px;
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 25px;
+            /* padding: 10px; */
+        }
+        
+        nav > a:hover{
+            text-decoration: underline;
+        }
+    
+        .logo{
+            margin: -20px 30px 10px 5px;
+        }
+    
+        .logoImg {
+            width: 100px;
+            height: 60px;
+        }
+    
+        .imagen-fondo-doctor {
+            background-image: url(../img/header.png);
+            background-size: 100% 100%;
+            /* width: 200px; */
+            height: 300px;
+            margin-top: 60px;
+            /* margin-left: 100px; */
+            /* margin-right: 30px; */
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .boton-visitanos {
+            /* margin: 100px 0px -700px 50px; */
+            padding: 150px 0px 20px 30px;
+        }
+        
+        .button-visita {
+            background: #CE007D;
+            border: none;
+            border-radius: 4px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 10px;
+            padding: 15px 35px;
+            cursor: pointer;
+        }
+        
+        .button-visita:hover{
+            background: #096FCF;
+        }
+    
+    
+    
+        .pide-tu-cita {
+            width: 100%;
+            background: #096FCF;
+            height: 230px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .mi-icono{
+            /* text-align: center; */
+            /* flex-direction: column; */
+            /* padding: 0px 0px 0px 0px; */
+            margin: 40px 0px 0px 0px;
+        }
+        
+        .contenido-cita {
+            color: white;
+            margin-top: 20px;
+        }
+        
+        .contenido-cita h1{
+            margin-block: 10px;
+            font-size: 15px;
+        }
+        
+        .contenido-cita p {
+            font-size: 12px;
+        }
+    
+        .medio1 {
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+    
+        .medio2 {
+            text-align: center;
+        }
+        
+        .mi-bottom {
+            margin: 10px;
+            align-items: center;
+        }
+        
+        .button-cita {
+            background: #F2762B;
+            border: none;
+            border-radius: 40px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 11px;
+            padding: 10px 45px;
+            cursor: pointer;
+            margin: auto;
+            margin-left: 20px;
+        }
+    
+        #un-titulo {
+            color: #00417e;
+            text-align: center;
+            margin-bottom: 35px;
+            margin-top: 35px;
+            font-size: 20px;
+        }
+    
+        .financiacion {
+            width: 100%;
+        }
+    
+        .contenido-f {
+            margin: auto;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        /* ****************************************** */
+        .contenido-t1 {
+            margin: auto;
+        }
+        
+        .icoo{
+            /* margin: 0px 0px 0px 70px; */
+            margin: auto;
+            margin-bottom: 10px;
+        }
+        
+        .contenido-t1 h3{
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        
+        .contenido-t1 p{
+            font-size: 16px;
+            color: rgb(83, 83, 83);
+            margin: 0px 0px 40px 0px;
+            text-align: justify;
+        }
+        
+        
+        
+        .contenido-t2 {
+            margin: auto;
+        }
+        
+        .contenido-t2 h3{
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        
+        .contenido-t2 p{
+            font-size: 16px;
+            color: rgb(83, 83, 83);
+            margin: 0px 0px 40px 0px;
+            text-align: justify;
+        }
+        
+        
+        .contenido-t3 {
+            margin: auto;
+        }
+        
+        .contenido-t3 h3{
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        
+        .contenido-t3 p{
+            font-size: 16px;
+            color: rgb(83, 83, 83);
+            margin: 0px 0px 0px 0px;
+            text-align: justify;
+        }
+        
+        .btn-financiacion {
+            background: #F2762B;
+            border: none;
+            border-radius: 40px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 14px;
+            padding: 12px 40px;
+            cursor: pointer;
+            margin: auto;
+        }
+        
+        .buttomFinaciacion {
+            margin-top: 60px;
+            margin-bottom: 60px;
+        }
+    
+        /* ********************************************************* */
+        
+        
+        .nina-tam{
+            width: 100%;
+            display: inline;
+        }
+        
+        .micontent {
+            background-image: url(../img/niña.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            color: #4a4e50;
+            height: 250px;
+            /* width: 100%; */
+        }
+        
+        .margen {
+            padding: 60px 0px 0px 50px;
+        }
+        
+        #fino{
+            color: rgb(0, 0, 0);
+            font-size: 15px;
+            margin-bottom: 15px;
+        }
+        
+        .margen p {
+            font-size: 12px;
+            margin-bottom: 20px;
+        }
+        
+        .margen a{
+            color: #CA5007;
+            font-size: 10px;
+        }
+    
+        /* *********************************************************** */
+        
+    
+        /* *********************************************************************************** */
+        .nina1{
+            width: 100%;
+            margin-bottom: 90px;
+        }
+        
+        .nina-tam1{
+            width: 100%;
+            display: inline;
+        }
+        
+        .micontent1 {
+            background-image: url(../img/cotazonmanos.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            color: #4a4e50;
+            height: 300px;
+            /* width: 100%; */
+        }
+        
+        .margen1 {
+            padding: 20px 0px 0px 30px;
+        }
+        
+        #fino1{
+            color: rgb(0, 0, 0);
+            font-size: 25px;
+            margin-bottom: 15px;
+        }
+        
+        .margen1 p {
+            font-size: 17px;
+            margin-bottom: 20px;
+        }
+        
+        .margen1 a{
+            color: #CA5007;
+            font-size: 16px;
+        }
+    
+    
+        /* ******************************************************************************************** */
+        .pide-tu-cita1 {
+            width: 100%;
+            background: #096FCF;
+            /* height: 160px; */
+            margin-top: -90px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .mi-icono1{
+            margin: auto;
+            font-size: 70px;
+        }
+        
+        .contenido-cita6 {
+            color: white;
+            margin-top: 20px;
+            text-align: justify;
+        }
+        
+        .contenido-cita6 h1{
+            margin-block: 20px;
+            text-align: center;
+        }
+        
+        .contenido-cita6 p {
+            font-size: 18px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .mi-bottom7 {
+            margin: center;
+            margin-bottom: 20px;
+        }
+        
+        .button-cita8 {
+            background: #F2762B;
+            border: none;
+            border-radius: 40px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 12px;
+            padding: 10px 22px;
+            cursor: pointer;
+        }
+    
+        /* ******************************************************************************* */
+        .portafolio{
+            background: #f2f2f2;
+            width: 100%;
+        }
+        /* repasar */
+        .imagen-port{
+            width: 100%;
+            height: 400px;
+            margin-bottom: 10px;
+            overflow: hidden;
+            position: relative;
+            cursor: pointer;
+            box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+        }
+        
+        /* esto es para que cuando acerque el click en la imagen se vea la transicion */
+        .hover-galeria{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            margin: 20px 10px;
+            top: 0;
+            transform: scale(0);
+            background: hsla(273, 26%, 83%, 0.7);
+            transition: transform .5s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        
+        .hover-galeria h3{
+            color: rgb(48, 47, 47);
+            margin-bottom: 20px;
+            font-size: 22px;
+            text-align: center;
+        }
+        
+        .hover-galeria a{
+            color: #CA5007;
+            font-size: 20px;
+            text-align: center;
+        }
+    
+        /* ******************************************************************************************** */
+        .miform {
+            width: 100%;
+            margin-top: 50px;
+        }
+        
+        .conteF {
+            width: 100%;
+            flex-direction: column;
+        }
+        
+        .mitad {
+            margin: 0px 30px 0px 20px;
+            height: 300px;
+        }
+        
+        .formT {
+            width: 100%;
+            text-align: center;
+        }
+        
+        #check{
+            text-align: center;
+        }
+        
+        .formT h2{
+            text-align: center;
+            color: #096FCF;
+            margin-bottom: 40px;
+            margin-top: 25px;
+        }
+        
+        .formT label{
+            text-align: left;
+            color: #096FCF;
+            font-size: 15px;
+            line-height: 26px;
+        }
+        
+        
+        input{
+            padding: 12px 90px;
+            margin-bottom: 25px;
+            border-color: rgb(187, 185, 185);
+            border-radius: 8px;
+        }
+        
+        .guardar{
+            background: #ecdfdf;
+            border: none;
+            /* border-radius: 40px; */
+            color: red;
+            text-decoration: none;
+            font-size: 14px;
+            padding: 10px 80px;
+            cursor: pointer;
+            display: block;
+            margin: auto;
+        }
+    
+        /* ************************************************************************************ */
+        .miSocial {
+            width: 100%;
+            background: #096FCF;
+            flex-direction: column;
+            height: 500px;
+            text-align: center;
+            align-items: center;
+        }
+
+        .mi-icono-social {
+            margin: 0px 40px 0px 160px;
+        }
+        
+        .miSocial {
+            color: white;
+            margin-top: 10px;
+        }
+    
+        .red, .red2, .red4 {
+            margin: 0px 0px -30px -230px;
+        }
+        
+        .miSocial h3{
+            margin-top: 50px;
+            margin-bottom: -30px;
+            font-size: 13px;
+        }
+    
+        .miSocial h1{
+            margin-top: 50px;
+            font-size: 12px;
+            text-align: center;
+        }
+        
+        .miSocial p {
+            margin-top: 35px;
+            font-size: 15px;
+            margin-left: 0px;
+        }
+    
+        /* *********************************************************************** */
+        .informacion {
+            width: 100%;
+            height: 980px;
+            margin-top: 40px;
+            margin-bottom: 150px;
+        }
+        
+        .flexM {
+            flex-direction: column;
+        }
+        
+        .informacion h3 {
+            color: #096FCF;
+        }
+        
+        .informacion a:hover{
+            color: #CA5007;
+        }
+        
+        .info-img {
+            width: 90%;
+            border: 1px solid rgb(110, 102, 102);
+            margin-left: 50px;
+            margin-bottom: 50px;
+        }
+        
+        .conte-info {
+            width: 100%;
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 30px;
+        }
+        
+        .conte-info p {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #CA5007;
+        }
+        
+        /* **************************************** */
+        .servicios {
+            margin-top: 50px;
+            margin: auto;
+        }
+        
+        .conte-serve a{
+            color: rgb(97, 93, 93);
+            line-height: 40px;
+            text-decoration: none;
+        }
+        
+        .compania {
+            margin-top: 50px;
+            margin: auto;
+        }
+        
+        .conte-conpany a{
+            color: rgb(97, 93, 93);
+            line-height: 40px;
+            text-decoration: none;
+        }
+        
+        .contacto {
+            margin-top: 50px;
+            margin: auto;
+        }
+        
+        .conte-contacto a{
+            color: rgb(97, 93, 93);
+            line-height: 40px;
+            text-decoration: none;
+        }
+        
+        .bancos {
+            text-align: right;
+            margin-right: 30px;
+            margin-top: 50px;
+        }
+}

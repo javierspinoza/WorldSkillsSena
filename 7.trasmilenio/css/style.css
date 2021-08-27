@@ -1,0 +1,273 @@
+/* .contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+} */
+
+.about-services{
+    background: #f2f2f2;
+    /* padding-bottom: 30px; */
+}
+
+.servicio-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.servicio-ind{
+    width: 100%;
+    /* text-align: center; */
+}
+
+.servicio-ind img{
+    /* width: 90%; */
+    width: 100%;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+.contenedor1{
+    padding: 0px 0;
+    /* width: 90%; */
+    /* max-width: 1000px; */
+    margin: auto;
+    overflow: hidden;
+}
+
+.about-services1{
+    background: #f2f2f2;
+    /* padding-bottom: 30px; */
+}
+
+.servicio-cont1{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.servicio-ind1{
+    width: 5%;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.servicio-ind1 img{
+    width: 90%;
+    padding: 10px 20px 10px 20px;
+    /* width: 100%;
+    height: 200px; */
+}
+
+/* logout */
+.servicio-ind1 p{
+    width: 90%;
+    padding: 0px 0px 30px 30px;
+    /* width: 100%;
+    height: 200px; */
+}
+
+/* hoome usuario y crear */
+.servicio-ind5  a{
+    width: 90%;
+    padding: 30px 0px 0px 600px;
+    color: rgb(0, 140, 255);
+    /* width: 100%;
+    height: 200px; */
+}
+.servicio-ind6 a{
+    width: 90%;
+    padding: 30px 0px 0px 15px;
+    color: rgb(0, 140, 255);
+    /* width: 100%;
+    height: 200px; */
+}
+.servicio-ind7 p{
+    width: 90%;
+    padding: 2px 50px 0px 15px;
+    /* width: 100%;
+    height: 200px; */
+}
+
+
+
+
+
+
+
+
+
+
+.contenedor2{
+    padding: 10px 15px;
+    /* width: 90%; */
+    /* max-width: 1000px; */
+    margin: auto;
+    overflow: hidden;
+}
+
+.about-services2{
+    /* background: #e0b8b8; */
+    padding-bottom: 30px;
+}
+
+.servicio-cont2{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.servicio-ind2{
+    width: 70%;
+    /* text-align: center; */
+}
+
+.servicio-ind2 form{
+    color: rgb(8, 8, 8);
+    font-size: 0.8em;
+    padding: 20px;
+    margin: 0 auto;
+    border: solid 1px #008CBA;
+}
+
+.servicio-ind2 .field{
+    border: solid 1px #008CBA;
+    padding: 10px;
+}
+
+.servicio-ind2 .field1{
+    border: solid 1px #008CBA;
+    padding: 10px 90px 10px 10px;
+}
+
+.servicio-ind2 .field:focus{
+    border-color: blue;
+}
+
+
+/* para el segundo recuadro de los 3 botones */
+.servicio-ind8{
+    width: 30%;
+    /* text-align: center; */
+}
+
+.content-center{
+    text-align: right;
+    padding: 0px 27px;
+}
+
+.button1{
+    background-color: #008CBA;
+    border: none;
+    border: 2px solid #f2f2f2;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    background: #535151;
+    padding: 10px 0 5px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    /* padding-bottom: 50px; */
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: #f2f2f2;
+    border-bottom: 3px solid #f2f2f2;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #f2f2f2;
+}
+
+.titulo-final{
+    color: #f2f2f2;
+    font-size: 24px;
+    text-align: center;
+    margin: 30px 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+.social{
+    position: fixed;
+    right: 0;
+    top: 200px;
+    z-index: 2000;
+}
+
+.social ul{
+    list-style: none;
+}
+
+.social ul li .icon-facebook{
+    background: #3b5998;
+}
+
+.social ul li .icon-twitter{
+    background: #00abf0;
+}
+
+.social ul li .icon-whatsapp{
+    background: #25d366;
+}
+
+.social ul li a{
+    display: inline-block;
+    color: #fff;
+    background: #2c3a3f;
+    padding: 10px 15px;
+    text-decoration: none;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.social ul li a:hover{
+    padding: 10px 30px;
+}

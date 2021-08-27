@@ -1,0 +1,340 @@
+@font-face {
+    font-family: javier;
+    /* ruta de la fuente */
+    src: url(../fonts/charter-bold-italic.otf);
+    /* que estilo va a tener la fuente */
+    font-style: normal;
+    /* peso de la fuente */
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: javier;
+    /* ruta de la fuente */
+    src: url(../fonts/charter-italic.otf);
+    /* que estilo va a tener la fuente */
+    font-style: italic;
+    /* peso de la fuente */
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: javier;
+    /* ruta de la fuente */
+    src: url(../fonts/charter-bold.otf);
+    /* que estilo va a tener la fuente */
+    font-style: normal;
+    /* peso de la fuente */
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: javier;
+    /* ruta de la fuente */
+    src: url(../fonts/charter-regular.otf);
+    /* que estilo va a tener la fuente */
+    font-style: normal;
+    /* peso de la fuente */
+    font-weight: 400;
+}
+
+
+:root{
+    font-size: 22px;
+    /* --azul: blue;se guarda una variable para guaradar un valor o lo que queramos */
+    --white30: white;
+    --white20: #A5A3A5;
+    --white10: #3A3539;
+}
+
+body{
+    color: var(--white30);
+    font-family: 'Nunito', sans-serif;
+    background: #251f24;
+    margin: 0;
+}
+
+a{
+    color: var(--white10);
+}
+
+.header{
+    /* position: sticky;
+    inset-block-start: -45px; */
+}
+
+.header-content{
+    /* position: relative;
+    inset-block-start: 65px; */
+    padding-inline: 20px;
+}
+
+header{
+    margin-block-start: 20px;
+    /* con esto actualizamos para que en este caso sea de otro color */
+    /* --white10: red; */
+    font-size: 14px;
+    color: var(--white30);
+    /* position: absolute; */
+    /* top */
+    /* inset-block-start: 65px; */
+    /* buttom */
+    /* inset-block-end: ; */
+    /* left */
+    /* inset-inline-start: -208px; */
+    /* right: ; */
+    /* inset-inline-end: ; */
+    /* ancho */
+    /* inline-size: 188px; */
+}
+
+header li{
+    color: var(--white20);
+    margin-block-end: 16px;
+}
+
+header a{
+    text-decoration: none;
+    color: var(--white20);
+}
+
+header a:hover{
+    color: var(--white30);
+}
+
+nav details summary{
+    font-weight: bold;
+}
+
+h1{
+    font-size: 60px;
+    font-size: 40px;
+    font-weight: normal;
+    margin-block-start: 64px;
+    margin-block-start: 20px;
+    margin-block-end: 16px;
+}
+
+h2{
+    font-size: 24px;
+    font-weight: normal;
+    margin-block: 40px;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin-block: 16px;
+}
+
+hr{
+    /* margen arriba y abajo */
+    margin-block: 40px;
+    border-color: rgba(97, 97, 97, 0.2);
+}
+
+pre{
+    background: var(--white10);
+    padding: 40px;
+    /* para que me genere un scroll en dispositivos pequeños */
+    overflow: auto;
+    /* border-radius: 8px; */
+    border-radius: 10px solid #5551FF;
+    box-shadow: -10px 10px 0 0 #ABAAF6;
+    /* margin-block-end: 30px;
+    border-radius: 10px; */
+}
+
+P {
+    color: var(--white20);
+}
+
+.hero{
+    background-image: linear-gradient(96.07deg, #314755 30.63%, #26A0DA 102.18%);
+    /* height: 350px; */
+    block-size: 350px;
+}
+
+.section-content img {
+    margin-block-start: 40px;
+    display: block;
+    max-inline-size: 100%;
+}
+
+/* esto es para poner numeros a lo que desee */
+.section-content {
+    counter-reset: titleList;
+}
+
+.section-content h3{
+    counter-increment: titleList;
+}
+
+.section-content h3::before{
+    content: counter(titleList, decimal)'. ';
+}
+
+/* .section-content h3::after{
+    content: ' ';
+    width: 32px;
+    height: 4px;
+    background: var(--white30);
+    display: inline-block;
+} */
+
+blockquote {
+    margin-block-start: 80px;
+    margin-block-end: 63px;
+    background: var(--white10);
+    border-radius: 8px;
+    line-height: 32px;
+    font-size: 24px;
+    /* padding: 24px; */
+    /* esto es lo mismo que el padding anterior */
+    padding-inline-end: 24px;
+    padding-inline-start: 24px;
+    padding-block-start: 24px;
+    padding-block-end: 24px;
+}
+
+blockquote p {
+    color: var(--white30);
+}
+
+
+.main hr {
+    /* display: none; */
+}
+
+.main {
+    /* border: 1px solid red; */
+}
+
+.wrapper {
+    /* border: 1px solid yellow; */
+    /* tamaño en linea y para que se vea responsivo*/
+    max-inline-size: 872px;
+    /* tamaño en bloque y para que se vea responsivo*/
+    /* block-size: 100px; */
+    margin: auto;
+}
+
+.main-content {
+    /* para que lo aplique solo en los dos lados */
+    padding-inline: 16px;
+}
+
+/* ::selection{
+    background: magenta;
+} */
+
+
+
+
+
+
+
+.slider{
+    /* border: 1px solid red; */
+}
+
+.slider-container{
+    /* alto */
+    /* block-size: 100px; */
+    /* se cambia a en bloque porque por defecto viene en linea 
+    y no se le podria aplicar el alto */
+    display: block;
+    overflow: auto;
+    /* scroll-behavior: smooth; */
+    /* border: 1px solid purple; */
+    /* si encontramos un borde me genera una linea pero como tengo el 
+    scroll me genera el scroll */
+    white-space: nowrap;
+
+    font-size: 0;
+}
+
+.video{
+    margin: 0;
+    /* border: 1px solid blue; */
+    /* esta propiedad hace que esten uno al costado del otro
+    y tambien que se le puedan aplicar propiedades porque si solo
+    ponemos inline no nos dejaria poner propiedades */
+    display: inline-block;
+    width: 100%;
+    /* alto */
+    height: auto;
+    /* alto */
+    aspect-ratio: 16/9;
+}
+
+.slider-bullet-list {
+    text-align: center;
+    margin-block-start: 10px;
+}
+
+.slider-bullet {
+    display: inline-block;
+    inline-size: 15px;
+    block-size: 15px;
+    background: white;
+    border-radius: 50%;
+}
+
+
+
+.form input {
+    /* ocupe todo el anchon de la pantalla */
+    inline-size: 100%;
+    border: 1px solid var(--white30);
+    background: #251F24;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding-inline: 16px;
+    padding-block: 12px;
+    color: var(--white30);
+    font-size: 16px;
+    display: block;
+    margin-block-end: 24px;
+}
+
+.form ::-webkit-input-placeholder{
+    color: var(--white20);
+}
+
+form input[type="submit"] {
+    background: #157EFB;
+    border: none;
+}
+
+
+
+@media screen and (min-width: 1300px) {
+    
+
+    .hero {
+        block-size: 50px;
+    }
+    .header{
+        position: sticky;
+        inset-block-start: -45px;
+    }
+    
+    .header-content{
+        position: relative;
+        inset-block-start: 65px;
+        padding-inline: 0;
+    }
+    
+    header{
+        position: absolute;
+        inset-block-start: 65px;
+        inset-inline-start: -208px;
+        inline-size: 188px;
+    }
+
+    h1{
+        font-size: 60px;
+        margin-block-start: 64px;
+    }
+}
